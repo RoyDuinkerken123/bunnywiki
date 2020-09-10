@@ -1,27 +1,19 @@
 Vragen Bunnywiki
 
-___________________
-Onduidelijk:
-- Database
-___________________
-
-Welke doelgroep?
+- Doelgroep
+- Deadline
 
 WEBSITE
 
-Uiterlijk van de website? Kleuren, rustig of juist druk? Simpel?
-Logo? Duidelijk iets wat aangeeft. Dit is bunnywiki
-Inloggen/registeren?
-Foto's uploaden om te veilen?
-
-
----- Vergelijkbaar product -> Catawiki.nl | Vakantieveilingen.nl
----- Datum en tijd van klantengesprek plannen
+- Uiterlijk website, rustig, druk/simpel
+- Logo? Kenmerk
+- Inloggen/registeren
+- Camera functie/uploaden om te veilen
+- Vergelijkbaar product -> Catawiki.nl | Vakantieveilingen.nl
+- Zelf een idee voor vergelijkbaar product?
+- Speciale functionaliteiten
 
 APP
+- Camera functie/uploaden om te veilen
 
-Android en of IOS (consequenties IOS)?
-Uiterlijk(thema) van app en website gelijk?
-Wat moet de app kunnen? Camera functie of uploaden?
-Inloggen/registreren?
 
