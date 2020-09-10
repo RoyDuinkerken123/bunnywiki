@@ -5,7 +5,7 @@ Onduidelijk:
 - Database
 ___________________
 
-Welk doelgroep?
+Welke doelgroep?
 
 WEBSITE
 
@@ -16,10 +16,8 @@ Inloggen/registeren?
 Foto's uploaden om te veilen?
 
 
----- Vergelijkbaar product
----- Datum plannen
-
-
+---- Vergelijkbaar product -> Catawiki.nl | Vakantieveilingen.nl
+---- Datum en tijd van klantengesprek plannen
 
 APP
 
