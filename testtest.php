@@ -1,3 +1,0 @@
-<header>
- Mijn Header
-</header>
