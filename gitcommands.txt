@@ -1,0 +1,6 @@
+Volgorde commmit & push:
+
+1. Branche selecteren       ->      git checkout branchenaam
+2. Bestanden toevoegen      ->      git add .
+3. Commit                   ->      git commit -m "Message"
+4. Push                     ->      git push
