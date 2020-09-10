@@ -1,2 +1,2 @@
-# Bunnywiki
-Dit is een hele mooie website voor maryooooo
+# Bunnywiki APP
+Dit is de map ALLEEN van Michaël!!
