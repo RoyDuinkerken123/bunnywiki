@@ -1,6 +1,1 @@
-<head>
-
-</head>
-<body>
-
-</body>
+# Frontpage
