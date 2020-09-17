@@ -5,5 +5,5 @@ Einddatum: 30/11/2020
 
 Roy Duinkerken, Michael Iwema, Leander Maatman
 
-Project Owner: William \n
+Project Owner: William
 Docent: Ed
