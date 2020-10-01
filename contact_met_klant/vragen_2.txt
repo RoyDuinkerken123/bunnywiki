@@ -1,2 +1,16 @@
-Een vergeten wachtwoord optie
-Kunnen gebruikers hun eigen account verwijderen?
+1. Een vergeten wachtwoord optie
+2. Kunnen gebruikers hun eigen account verwijderen?
+3. Welke betaalmethodes?
+4. Buitenlandse kopers, hier aparte betaalmethodes voor?
+
+______________________________
+Motivatie voor keuze:
+1. WordPress
+2. HTML-Bootstrap
+3. Platform
+ONZE VOORKEUR VERTELLEN^^^^^^^
+______________________________
+
+// Voor een eventueel volgend contact moment(risico):
+// 5. Taal kunnen veranderen op de website?
+
