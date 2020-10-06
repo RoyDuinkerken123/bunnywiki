@@ -1,0 +1,48 @@
+Dag Roy,
+
+Wij hadden nog een aantal vragen over uw webapplicatie.
+
+De vragen luiden als volgt:
+
+Wilt u bij het login scherm de optie "Wachtwoord vergeten"? Zodat mensen die hun wachtwoord kwijt zijn via de e-mail hun wachtwoord kunnen herstellen?
+
+[Maryo] Ja tuurlijk ;-)
+
+Wilt u dat het mogelijk is dat een koper zijn/haar eigen account kan verwijderen?
+
+Of heeft u liever dat deze persoon u eerst een e-mail moet sturen met een aanvraag tot verwijdering?
+
+[Maryo] Koper kan eigen account verwijderen, maar account wordt dan op non-actief gezet. Zodat als er wat fout gegaan is, ik het account nog terug kan zetten.
+
+Heeft u een voorkeur bij betaalmethodes? Of wilt u de standaard betaalmethodes gebruiken, denk hierbij aan:
+
+- PayPal
+
+- iDeal
+
+- Mastercard / Credit Card
+
+- Visa
+
+- Afterpay
+
+[Maryo] In eerste instantie krijgen mensen een mail met de betalingsgegevens. In een later stadium wil ik iDeal en PayPal integreren.
+Maar.. er moet ook iets van een formulier komen wat mensen in moeten vullen, zodat ik weet waar ik het gewonnen item heen moet sturen.
+
+Stelt u voor dat u buitenlandse kopers krijgt, welke betaalmethodes moeten voor deze kopers gebruikt worden?
+
+[Maryo] Zie hierboven.
+
+Wij programmeren deze website naar uw wensen, helaas kunnen wij u geen tool bieden waarmee u de webapplicatie zelf kunt veranderen, het zou wel fijn zijn dat u tekst kunt opleveren zodat wij deze teksten in de webapplicatie kunnen zetten.
+
+[Maryo] Ja dat is wel leuk, maar ik wil zelf teksten kunnen veranderen.
+
+Als u vragen en of opmerkingen heeft kunt u ons bereiken per mail of telefonisch.
+
+Telefonisch zijn wij bereikbaar via Ed van den Berg of William Prinsen.
+
+[Maryo] Prima! Ik hoor graag weer van jullie.
+
+Vriendelijke groeten,
+
+Maryo van den Berg.
