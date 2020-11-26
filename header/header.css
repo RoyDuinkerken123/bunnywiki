@@ -1,0 +1,16 @@
+#logoHolder {
+    width: 200px;
+}
+#logo {
+    width: 100%;
+}
+#searchBar {
+
+}
+#searchBar {
+    border: 0;
+    width: 100%;
+    background-color: lightgrey;
+    padding: 12px;
+    color: #575757;
+}

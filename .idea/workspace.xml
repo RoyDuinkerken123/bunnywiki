@@ -20,11 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc8e9e4c-3433-4027-b438-fbcf1b4c4c12" name="Default Changelist" comment="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test">
-      <change afterPath="$PROJECT_DIR$/process/ingelogd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/dummy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hero-bunny.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enkel-product-pagina.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/login-pagina.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overzichten/overzicht-biedingen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overzichten/overzicht-gebruikers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overzichten/overzicht-producten.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profiel-pagina.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registratie/registratie-pagina.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registratie/registreer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/process/ingelogd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/process/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/process/register.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +70,35 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\home" />
+      <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\header" />
+      <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\assets\images" />
+      <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\registratie" />
+      <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\login" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.header.html">
+    <configuration name="header.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/header/header.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/home/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.header.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -135,5 +181,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="dock-window-1/0.0.1600.860@0.0.1600.860" timestamp="1600160973271" />
+    <state x="463" y="180" key="search.everywhere.popup" timestamp="1606310785828">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1606310785828" />
   </component>
 </project>

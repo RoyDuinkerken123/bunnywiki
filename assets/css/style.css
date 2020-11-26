@@ -1,1 +1,13 @@
 /*CSS Styling*/
+body {
+    font-family: Calibri, sans-serif;
+}
+.globalBtn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+
+}
+.globalBtn:hover {
+
+}

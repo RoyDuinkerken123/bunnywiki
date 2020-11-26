@@ -1,0 +1,52 @@
+#hero {
+    position: relative;
+    background-image: url("../assets/images/hero-bunny.jpg");
+    background-repeat: no-repeat;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+}
+
+#hero h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#registerBtn {
+    position: fixed;
+    right: 25px;
+    top: 80vh;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.categoryBlocks {
+    border: 1px solid black;
+    object-fit: cover;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.categoryBlocks .title {
+    color: white;
+}
+#categoryImage1 {
+    background-image: url("../assets/images/hero-bunny.jpg");
+}
+
+#categoryImage2{
+    background-image: url("../assets/images/hero-bunny.jpg");
+}
+
+#categoryImage3 {
+    background-image: url("../assets/images/hero-bunny.jpg");
+}
+
