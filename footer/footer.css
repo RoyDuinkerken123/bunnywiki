@@ -1,0 +1,19 @@
+.footer {
+    background-color: darkgrey;
+}
+.contactBlock {
+    background-color: white;
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactBlockHolder .title {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.textHolder {
+    display: flex;
+    flex-direction: column;
+}

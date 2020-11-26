@@ -5,7 +5,6 @@
     height: 350px;
     background-size: cover;
     background-position: center;
-    margin-bottom: 100px;
 }
 
 #hero h2 {
@@ -17,13 +16,14 @@
 #registerBtn {
     position: fixed;
     right: 25px;
-    top: 80vh;
+    bottom: 5vh;
+    z-index: 999;
 }
 
 .title {
     font-weight: bold;
     font-size: 22px;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .categoryBlocks {
@@ -50,3 +50,28 @@
     background-image: url("../assets/images/hero-bunny.jpg");
 }
 
+.recommendedProduct {
+
+}
+.recommendedProductName {
+    font-size: 20px;
+}
+
+.recommendedProductTimeLeft {
+    font-size: 16px;
+    font-weight: bold;
+    color: #575757;
+}
+
+.recommendedProductDescription {
+    font-size: 14px;
+}
+.recommendedProduct hr {
+    padding: 0;
+    background-color: black;
+    margin: 5px 0;
+}
+
+.sectie {
+    margin-top: 100px;
+}
