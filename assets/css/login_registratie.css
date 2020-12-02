@@ -1,0 +1,31 @@
+#loginForm, #registerForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#loginForm a, #registerForm p {
+    color: #575757;
+    font-weight: bold;
+}
+
+
+
+
+#loginForm button {
+    width: auto;
+}
+
+input[type="date"] {
+    color: #575757;
+}
+
+#persoonlijkProfiel input, #wachtwoordVergetenForm input, #registerForm input, #loginForm input {
+    margin-right: 5px;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    padding: 0;
+    margin: 10px 0 !important;
+}

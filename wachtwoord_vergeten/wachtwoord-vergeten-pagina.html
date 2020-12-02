@@ -11,26 +11,28 @@
     <link rel="stylesheet" href="../assets/css/home.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/wachtwoord-vergeten.css">
     <link rel="stylesheet" href="../assets/css/login_registratie.css">
-    <link rel="stylesheet" href="../assets/css/overzichten/gebruikers.css">
-    <link rel="stylesheet" href="../assets/css/overzichten/producten.css">
-    <link rel="stylesheet" href="../assets/css/overzichten/biedingen.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Bunnywiki</title>
 </head>
 <body>
-<div class="container-fluid">
-    <div class="row flex-column">
-        <div class="col">
-            <div class="row">
-                <div class="col-lg-2 field">Productnummer</div>
-                <div class="productNumber">1</div>
-            </div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 bg-dark p-4 text-white">
+            <div class="title">Wachtwoord vergeten?</div>
+            <form action="" method="POST" name="wachtwoordVergetenForm" id="wachtwoordVergetenForm">
+                <p> Als u uw wachtwoord vergeten hebt, kunt u deze hier resetten </p>
+                <div class="form-group">
+                    <input type="email" name="e-mail" placeholder="Vul hier uw e-mailadres in">
+                </div>
+                <div class="form-group">
+                    <button name="loginBtn" class="globalBtn my-4"> Verstuur e-mail</button>
+                </div>
+                <a href="../home/index.html">Terug naar de homepagina</a>
+            </form>
         </div>
-        <div class="col-lg-2 field">Productnaam</div>
-        <div class="col-lg-2 field">Productbeschrijving</div>
-        <div class="col-lg-2 field">Productfoto</div>
     </div>
 </div>

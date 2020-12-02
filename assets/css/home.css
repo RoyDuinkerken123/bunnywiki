@@ -1,6 +1,6 @@
 #hero {
     position: relative;
-    background-image: url("../assets/images/hero-bunny.jpg");
+    background-image: url("../images/hero-bunny.jpg");
     background-repeat: no-repeat;
     height: 350px;
     background-size: cover;
@@ -39,15 +39,15 @@
     color: white;
 }
 #categoryImage1 {
-    background-image: url("../assets/images/hero-bunny.jpg");
+    background-image: url("../images/hero-bunny.jpg");
 }
 
 #categoryImage2{
-    background-image: url("../assets/images/hero-bunny.jpg");
+    background-image: url("../images/hero-bunny.jpg");
 }
 
 #categoryImage3 {
-    background-image: url("../assets/images/hero-bunny.jpg");
+    background-image: url("../images/hero-bunny.jpg");
 }
 
 .recommendedProduct {

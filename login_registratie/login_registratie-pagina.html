@@ -1,0 +1,71 @@
+<!--Social media koppelingen?-->
+<!--Bunnystuff.nl-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/home.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/login_registratie.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Bunnywiki</title>
+</head>
+<body>
+<div class="container">
+    <div class="row justify-content-between">
+        <div class="col-lg-5 bg-dark p-4 text-white">
+            <div class="title">Aanmelden</div>
+            <form action="check.php" method="POST" name="loginForm" id="loginForm">
+                <div class="form-group">
+                    <input type="text" name="gebruikersnaam" placeholder="Gebruikersnaam">
+                </div>
+                <div class="form-group">
+                    <input type="password" name="wachtwoord" placeholder="Wachtwoord">
+                </div>
+                <a href="#"> Wachtwoord vergeten </a>
+                <button name="loginBtn" class="globalBtn my-4"> Login</button>
+            </form>
+        </div>
+
+        <div class="col-lg-6 bg-dark p-4 text-white">
+            <div class="title">Registreren</div>
+            <form action="registreer.php" method="POST" name="loginForm" id="registerForm">
+                <div class="form-group">
+                    <input type="text" name="voornaam" placeholder="Voornaam">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="voorvoegsel" placeholder="Voorvoegsel">
+                    <input type="text" name="achternaam" placeholder="Achternaam">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="email" placeholder="E-mailadres">
+                </div>
+                <div class="form-group">
+                    <input type="date" name="geboortedatum" placeholder="Geboortedatum">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="woonplaats" placeholder="Woonplaats">
+                </div>
+                <div class="form-group">
+                    <input type="password" name="wachtwoord" placeholder="Wachtwoord">
+
+                </div>
+                <div class="form-group">
+                    <input type="password" name="bevestigWachtwoord" placeholder="Bevestig wachtwoord">
+                </div>
+                <p> Minimaal 8 karakters. </p>
+                <button name="registerBtn" class="globalBtn my-4"> Registreren</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
