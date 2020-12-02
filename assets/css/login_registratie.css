@@ -19,7 +19,7 @@ input[type="date"] {
     color: #575757;
 }
 
-#persoonlijkProfiel input, #wachtwoordVergetenForm input, #registerForm input, #loginForm input {
+.persoonlijkProfiel input, #wachtwoordVergetenForm input, #registerForm input, #loginForm input {
     margin-right: 5px;
     width: 100%;
 }

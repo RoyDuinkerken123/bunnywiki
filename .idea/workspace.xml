@@ -20,35 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc8e9e4c-3433-4027-b438-fbcf1b4c4c12" name="Default Changelist" comment="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test">
-      <change afterPath="$PROJECT_DIR$/assets/css/login_registratie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/overzichten/producten.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/persoonlijk-profiel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/profiel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/wachtwoord-vergeten.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_registratie/check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_registratie/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_registratie/login_registratie-pagina.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_registratie/registreer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persoonlijk_profiel/profiel-pagina.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wachtwoord_vergeten/wachtwoord-vergeten-pagina.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enkel-product-pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/enkel-product-pagina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/check.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/login-pagina.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/overzichten/overzicht-biedingen.html" beforeDir="false" afterPath="$PROJECT_DIR$/overzichten/overzicht-biedingen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overzichten/overzicht-gebruikers.html" beforeDir="false" afterPath="$PROJECT_DIR$/overzichten/overzicht-gebruikers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overzichten/overzicht-producten.html" beforeDir="false" afterPath="$PROJECT_DIR$/overzichten/overzicht-producten.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiel-pagina.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registratie/registratie-pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/overzichten/biedingen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registratie/registreer.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/overzichten/gebruikers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/login_registratie.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/login_registratie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/persoonlijk-profiel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/profiel.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/profiel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persoonlijk_profiel/profiel-pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/persoonlijk_profiel/profiel-pagina.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +56,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\assets\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\assets\css" />
       <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\login_registratie" />
@@ -87,18 +66,15 @@
       <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\footer" />
       <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\home" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\assets\images" />
-    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.overzicht-gebruikers.html">
+  <component name="RunManager" selected="JavaScript Debug.profiel-pagina.html (1)">
     <configuration name="footer.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/footer/footer.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="login_registratie-pagina.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/login_registratie/login_registratie-pagina.html" useBuiltInWebServerPort="true">
+    <configuration name="overzicht-gebruikers.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/overzichten/overzicht-gebruikers.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="overzicht-gebruikers.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/overzichten/overzicht-gebruikers.html" useBuiltInWebServerPort="true">
+    <configuration name="profiel-pagina.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/persoonlijk_profiel/profiel-pagina.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="profiel-pagina.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/profiel-pagina.html" useBuiltInWebServerPort="true">
@@ -109,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.profiel-pagina.html (1)" />
         <item itemvalue="JavaScript Debug.overzicht-gebruikers.html" />
         <item itemvalue="JavaScript Debug.profiel-pagina.html" />
         <item itemvalue="JavaScript Debug.wachtwoord-vergeten-pagina.html" />
         <item itemvalue="JavaScript Debug.footer.html" />
-        <item itemvalue="JavaScript Debug.login_registratie-pagina.html" />
       </list>
     </recent_temporary>
   </component>
