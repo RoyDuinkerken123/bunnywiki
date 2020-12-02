@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc8e9e4c-3433-4027-b438-fbcf1b4c4c12" name="Default Changelist" comment="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/login_registratie.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/login_registratie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/persoonlijk-profiel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/profiel.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/profiel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persoonlijk_profiel/profiel-pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/persoonlijk_profiel/profiel-pagina.html" afterDir="false" />
-    </list>
+    <list default="true" id="dc8e9e4c-3433-4027-b438-fbcf1b4c4c12" name="Default Changelist" comment="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,9 +50,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\assets\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\assets\css" />
       <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\login_registratie" />
@@ -66,9 +57,12 @@
       <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\footer" />
       <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\home" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\assets\images" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.profiel-pagina.html (1)">
-    <configuration name="footer.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/footer/footer.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.login_registratie-pagina.html">
+    <configuration name="login_registratie-pagina.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/login_registratie/login_registratie-pagina.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="overzicht-gebruikers.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/overzichten/overzicht-gebruikers.html" useBuiltInWebServerPort="true">
@@ -85,11 +79,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.login_registratie-pagina.html" />
         <item itemvalue="JavaScript Debug.profiel-pagina.html (1)" />
         <item itemvalue="JavaScript Debug.overzicht-gebruikers.html" />
         <item itemvalue="JavaScript Debug.profiel-pagina.html" />
         <item itemvalue="JavaScript Debug.wachtwoord-vergeten-pagina.html" />
-        <item itemvalue="JavaScript Debug.footer.html" />
       </list>
     </recent_temporary>
   </component>
