@@ -28,18 +28,15 @@
                 <div class="form-group my-3">
                     <img src="../assets/images/dummy.jpg" width="150" height="150">
                 </div>
-                <div class="form-group m-0">
-                    <input type="file" class="m-0 p-0">
-                </div>
                 <div class="form-group">
-                    <input type="text" placeholder="Voornaam">
-                    <input type="text" placeholder="Voorvoegsel">
+                    <input type="text" placeholder="Voornaam van de klant">
+                    <input type="text" placeholder="Voorvoegsel van de klant">
                 </div>
-                <div class="form-group"><input type="text" placeholder="Achternaam" name="achternaam"></div>
-                <div class="form-group"><input type="text" placeholder="E-mailadres" name="email"></div>
-                <div class="form-group"><input type="text" placeholder="Woonplaats" name="woonplaats"></div>
-                <div class="form-group"><input type="date" placeholder="Geboortedatum" name="geboortedatum"></div>
-                <div class="form-group"><input type="password" placeholder="********" name="wachtwoord"></div>
+                <div class="form-group"><input type="text" placeholder="Naam van klant" readonly></div>
+                <div class="form-group"><input type="text" placeholder="E-mailadres van de klant"readonly></div>
+                <div class="form-group"><input type="text" placeholder="Woonplaats van de klant"readonly></div>
+                <div class="form-group"><input type="date"readonly></div>
+                <div class="form-group"><input type="password" placeholder="********"readonly></div>
                 <div class="form-group align-items-center justify-content-between">
                     <button class="globalBtn"> Wijzigen </button>
                     <a href="">Account verwijderen?</a>
@@ -50,6 +47,7 @@
     </div>
 </div>
 
+<!-- POP UP VOOR WIJZIGEN PROFIEL -->
 <div class="container d-none"id="wijzigProfiel">
     <div class="row justify-content-center">
         <div class="col-lg-7 bg-dark text-white p-4">

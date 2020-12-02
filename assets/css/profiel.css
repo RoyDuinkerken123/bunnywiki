@@ -9,3 +9,7 @@
     color: white;
     font-weight: bold;
 }
+.persoonlijkProfiel input:placeholder {
+    color: black;
+    font-weight: bold;
+}

@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc8e9e4c-3433-4027-b438-fbcf1b4c4c12" name="Default Changelist" comment="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test" />
+    <list default="true" id="dc8e9e4c-3433-4027-b438-fbcf1b4c4c12" name="Default Changelist" comment="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/login_registratie.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/login_registratie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/profiel.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/profiel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persoonlijk_profiel/profiel-pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/persoonlijk_profiel/profiel-pagina.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,10 +178,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="dock-window-1/0.0.1600.860@0.0.1600.860" timestamp="1600160973271" />
-    <state x="421" y="111" width="758" height="638" key="find.popup" timestamp="1606387323696">
+    <state x="421" y="111" width="758" height="638" key="find.popup" timestamp="1606919850595">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="421" y="111" width="758" height="638" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1606387323696" />
+    <state x="421" y="111" width="758" height="638" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1606919850595" />
     <state x="456" y="195" key="run.anything.popup" timestamp="1606380489797">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
