@@ -21,8 +21,3 @@ input[type="date"] {
     width: 100%;
 }
 
-.form-group {
-    display: flex;
-    padding: 0;
-    margin: 10px 0 !important;
-}

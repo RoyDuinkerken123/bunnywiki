@@ -18,11 +18,11 @@
     <title>Bunnywiki</title>
 </head>
 <body>
-<div class="container">
+<div class="container p-0">
     <div class="row justify-content-between">
-        <div class="col-lg-5 bg-dark p-4 text-white">
-            <div class="title">Aanmelden</div>
-            <form action="check.php" method="POST" name="loginForm" id="loginForm">
+        <div class="col-lg-5 text-white">
+            <form action="check.php" method="POST" name="loginForm" id="loginForm" class="bg-dark p-4">
+                <div class="title">Aanmelden</div>
                 <div class="form-group">
                     <input type="text" name="gebruikersnaam" placeholder="Gebruikersnaam">
                 </div>
@@ -34,9 +34,9 @@
             </form>
         </div>
 
-        <div class="col-lg-6 bg-dark p-4 text-white">
-            <div class="title">Registreren</div>
-            <form action="registreer.php" method="POST" name="loginForm" id="registerForm">
+        <div class="col-lg-6 text-white">
+            <form action="registreer.php" method="POST" name="loginForm" id="registerForm" class="bg-dark p-4">
+                <div class="title">Registreren</div>
                 <div class="form-group">
                     <input type="text" name="voornaam" placeholder="Voornaam">
                 </div>
