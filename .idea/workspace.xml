@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc8e9e4c-3433-4027-b438-fbcf1b4c4c12" name="Default Changelist" comment="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header/header.html" afterDir="false" />
-    </list>
+    <list default="true" id="dc8e9e4c-3433-4027-b438-fbcf1b4c4c12" name="Default Changelist" comment="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +108,7 @@
       <workItem from="1600160798472" duration="2537000" />
       <workItem from="1600247326211" duration="35000" />
       <workItem from="1606808197828" duration="7641000" />
-      <workItem from="1607414012661" duration="649000" />
+      <workItem from="1607414012661" duration="1036000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test">
       <created>1599722129079</created>
