@@ -1,0 +1,32 @@
+/* .gebruiker-col{
+  margin:10px;
+} */
+.Wijzigen {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 5px 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.Verwijderen {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 5px 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.Toevoegen {
+  background-color: lightblue;
+  border: none;
+  color: black;
+  padding: 5px 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

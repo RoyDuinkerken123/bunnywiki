@@ -1,7 +1,7 @@
-#logoHolder {
+.logoHolder {
     width: 200px;
 }
-#logo {
+.logo {
     width: 100%;
 }
 #searchBar {
@@ -10,4 +10,7 @@
     background-color: lightgrey;
     padding: 12px;
     color: #575757;
+}
+.header {
+    margin-bottom: 50px;
 }
