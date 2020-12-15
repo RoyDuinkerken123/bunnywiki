@@ -57,18 +57,35 @@
                 <h4> Mijn profiel </h4>
                 <div class="form-group my-3">
                     <img src="../assets/images/dummy.jpg" width="150" height="150">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="row justify-content-end">
+                                <div class="persoonlijkeInfo">
+                                    <p> Voornaam</p>
+                                    <p> Voorvoegsel</p>
+                                    <p> Achternaam</p>
+                                    <p> E-mailadres</p>
+                                    <p> Woonplaats</p>
+                                    <p> Geboortedatum</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row justify-content-start">
+                                <div class="persoonlijkeInfo">
+                                    <p> Mick </p>
+                                    <p> van </p>
+                                    <p> Stotijn </p>
+                                    <p>Mickstotijn@hotmail.com</p>
+                                    <p>Hoogeveen</p>
+                                    <p>11-03-2001</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <input type="text" placeholder="Voornaam van de klant">
-                    <input type="text" placeholder="Voorvoegsel van de klant">
-                </div>
-                <div class="form-group"><input type="text" placeholder="Naam van klant" readonly></div>
-                <div class="form-group"><input type="text" placeholder="E-mailadres van de klant"readonly></div>
-                <div class="form-group"><input type="text" placeholder="Woonplaats van de klant"readonly></div>
-                <div class="form-group"><input type="date"readonly></div>
-                <div class="form-group"><input type="password" placeholder="********"readonly></div>
                 <div class="form-group align-items-center justify-content-between">
-                    <button class="globalBtn"> Wijzigen </button>
+                    <button class="globalBtn"> Wijzigen</button>
                     <a href="">Account verwijderen?</a>
                     <!--                    WEET U HET ZEKER???-->
                 </div>
@@ -76,15 +93,14 @@
         </div>
     </div>
 </div>
-
 <!-- POP UP VOOR WIJZIGEN PROFIEL -->
-<div class="container "id="wijzigProfiel">
+<div class="container " id="wijzigProfiel">
     <div class="row justify-content-center">
         <div class="col-lg-7 text-white">
             <form method="POST" action="" class="persoonlijkProfiel bg-dark p-4">
                 <h4> Mijn profiel wijzigen </h4>
                 <div class="form-group my-3">
-                        <img src="../assets/images/dummy.jpg" width="150" height="150">
+                    <img src="../assets/images/dummy.jpg" width="150" height="150">
                 </div>
                 <div class="form-group m-0">
                     <input type="file" class="m-0 p-0">
@@ -96,12 +112,15 @@
                 <div class="form-group"><input type="text" placeholder="Achternaam" name="achternaam"></div>
                 <div class="form-group"><input type="text" placeholder="E-mailadres" name="email"></div>
                 <div class="form-group"><input type="text" placeholder="Woonplaats" name="woonplaats"></div>
-                <div class="form-group"><input type="date" placeholder="Geboortedatum" name="geboortedatum"></div>
-                <div class="form-group"><input type="password" placeholder="********" name="wachtwoord"></div>
+                <div class="form-group"><p style="color: white;font-size: 12px;" class="m-0 p-0">Geboortedatum</p></div>
+                <div class="form-group p-0 m-0"><input type="date" name="geboortedatum"></div>
+                <div class="form-group"><input type="password" placeholder="Wachtwoord" name="wachtwoord"></div>
+                <div class="form-group"><input type="password" placeholder="Bevestig wachtwoord"
+                                               name="bevestig wachtwoord"></div>
                 <div class="form-group align-items-center justify-content-between">
-                    <button class="globalBtn"> Opslaan </button>
+                    <button class="globalBtn"> Opslaan</button>
                     <a href="">Account verwijderen?</a>
-<!--                    WEET U HET ZEKER???-->
+                    <!--                    WEET U HET ZEKER???-->
                 </div>
             </form>
         </div>
