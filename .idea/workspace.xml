@@ -20,22 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc8e9e4c-3433-4027-b438-fbcf1b4c4c12" name="Default Changelist" comment="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test">
+      <change afterPath="$PROJECT_DIR$/product_toevoegen/product_toevoegen-pagina.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_toevoegen/verwerk.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/contact-pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/contact-pagina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_pagina/contact-pagina.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/profiel.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/profiel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/enkel_product/enkel-product-pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/enkel_product/enkel-product-pagina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login_registratie/login_registratie-pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/login_registratie/login_registratie-pagina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overzichten/overzicht-biedingen.html" beforeDir="false" afterPath="$PROJECT_DIR$/overzichten/overzicht-biedingen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overzichten/overzicht-gebruikers.html" beforeDir="false" afterPath="$PROJECT_DIR$/overzichten/overzicht-gebruikers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overzichten/overzicht-producten.html" beforeDir="false" afterPath="$PROJECT_DIR$/overzichten/overzicht-producten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_registratie/registreer.php" beforeDir="false" afterPath="$PROJECT_DIR$/login_registratie/registreer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persoonlijk_profiel/profiel-pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/persoonlijk_profiel/profiel-pagina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_toevoegen/product_toevoegen.html" beforeDir="false" afterPath="$PROJECT_DIR$/product_toevoegen/product_toevoegen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wachtwoord_vergeten/wachtwoord-vergeten-pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/wachtwoord_vergeten/wachtwoord-vergeten-pagina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_toevoegen/product_toevoegen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_toevoegen/product_toevoegen_verwerk.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,29 +72,29 @@
       <recent name="C:\Users\user\OneDrive - ROC Alfa-college\School\Jaar 3\Projecten\bunnywiki\footer" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.overzicht-producten.html">
-    <configuration name="overzicht-biedingen.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/overzichten/overzicht-biedingen.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.enkel-product-pagina.html">
+    <configuration name="contact-pagina.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/contact/contact-pagina.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="overzicht-gebruikers.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/overzichten/overzicht-gebruikers.html" useBuiltInWebServerPort="true">
+    <configuration name="enkel-product-pagina.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/enkel_product/enkel-product-pagina.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="overzicht-producten.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/overzichten/overzicht-producten.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/home/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="product_toevoegen.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/product_toevoegen/product_toevoegen.html" useBuiltInWebServerPort="true">
+    <configuration name="login_registratie-pagina.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/login_registratie/login_registratie-pagina.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="wachtwoord-vergeten-pagina.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/wachtwoord_vergeten/wachtwoord-vergeten-pagina.html" useBuiltInWebServerPort="true">
+    <configuration name="profiel-pagina.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bunnywiki/persoonlijk_profiel/profiel-pagina.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.overzicht-producten.html" />
-        <item itemvalue="JavaScript Debug.overzicht-gebruikers.html" />
-        <item itemvalue="JavaScript Debug.overzicht-biedingen.html" />
-        <item itemvalue="JavaScript Debug.wachtwoord-vergeten-pagina.html" />
-        <item itemvalue="JavaScript Debug.product_toevoegen.html" />
+        <item itemvalue="JavaScript Debug.enkel-product-pagina.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.profiel-pagina.html" />
+        <item itemvalue="JavaScript Debug.login_registratie-pagina.html" />
+        <item itemvalue="JavaScript Debug.contact-pagina.html" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +120,7 @@
       <workItem from="1600247326211" duration="35000" />
       <workItem from="1606808197828" duration="7641000" />
       <workItem from="1607414012661" duration="1036000" />
+      <workItem from="1608019053406" duration="4448000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test">
       <created>1599722129079</created>
@@ -179,10 +174,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="489" y="152" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1599724575789" />
-    <state x="476" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1607414042727">
+    <state x="476" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1608019053376">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="476" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1607414042727" />
+    <state x="476" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1608019053376" />
     <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599721889566">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -191,10 +186,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="dock-window-1/0.0.1600.860@0.0.1600.860" timestamp="1600160973271" />
-    <state x="491" y="115" width="758" height="638" key="find.popup" timestamp="1607592278401">
+    <state x="491" y="115" width="758" height="638" key="find.popup" timestamp="1607597030656">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="491" y="115" width="758" height="638" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1607592278401" />
+    <state x="491" y="115" width="758" height="638" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1607597030656" />
     <state x="456" y="195" key="run.anything.popup" timestamp="1606380489797">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

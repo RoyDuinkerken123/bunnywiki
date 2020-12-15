@@ -9,7 +9,13 @@
     color: white;
     font-weight: bold;
 }
-.persoonlijkProfiel input:placeholder {
+.persoonlijkProfiel input::placeholder {
     color: black;
     font-weight: bold;
 }
+
+.persoonlijkeInfo p {
+    margin: 0 10px;
+    padding: 0;
+}
+
