@@ -1,3 +1,4 @@
-#exampleFormControlTextarea1 {
-    width: 99%;
+body textarea {
+    resize: none;
+    width: 99%
 }
