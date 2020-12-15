@@ -20,16 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc8e9e4c-3433-4027-b438-fbcf1b4c4c12" name="Default Changelist" comment="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test">
-      <change afterPath="$PROJECT_DIR$/product_toevoegen/product_toevoegen-pagina.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product_toevoegen/verwerk.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/profiel.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/profiel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/enkel_product/enkel-product-pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/enkel_product/enkel-product-pagina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_registratie/login_registratie-pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/login_registratie/login_registratie-pagina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_registratie/registreer.php" beforeDir="false" afterPath="$PROJECT_DIR$/login_registratie/registreer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persoonlijk_profiel/profiel-pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/persoonlijk_profiel/profiel-pagina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_toevoegen/product_toevoegen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_toevoegen/product_toevoegen_verwerk.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +112,7 @@
       <workItem from="1600247326211" duration="35000" />
       <workItem from="1606808197828" duration="7641000" />
       <workItem from="1607414012661" duration="1036000" />
-      <workItem from="1608019053406" duration="4448000" />
+      <workItem from="1608019053406" duration="5341000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test">
       <created>1599722129079</created>
