@@ -18,15 +18,18 @@ CREATE TABLE IF NOT EXISTS `biedingen` (
   `gebruiker_id` int(10) unsigned NOT NULL,
   `gebruiker_bod` float unsigned NOT NULL,
   PRIMARY KEY (`bieding_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 
--- Dumpen data van tabel bunnywiki_db.biedingen: ~4 rows (ongeveer)
+-- Dumpen data van tabel bunnywiki_db.biedingen: ~7 rows (ongeveer)
 /*!40000 ALTER TABLE `biedingen` DISABLE KEYS */;
 INSERT INTO `biedingen` (`bieding_id`, `product_id`, `gebruiker_id`, `gebruiker_bod`) VALUES
 	(1, 1, 2, 15.9),
 	(2, 1, 5, 15.5),
 	(3, 2, 2, 20),
-	(4, 2, 6, 20.5);
+	(4, 2, 5, 20.5),
+	(5, 5, 5, 15),
+	(6, 5, 1, 20),
+	(7, 5, 2, 30);
 /*!40000 ALTER TABLE `biedingen` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

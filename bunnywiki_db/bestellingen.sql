@@ -16,16 +16,18 @@ CREATE TABLE IF NOT EXISTS `bestellingen` (
   `bestelling_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `product_id` int(10) unsigned DEFAULT NULL,
   `gebruiker_id` int(10) unsigned DEFAULT NULL,
-  `bod` float NOT NULL,
+  `gebruiker_bod` float NOT NULL,
   `verzendkosten` float NOT NULL,
   `besteldatum` datetime NOT NULL DEFAULT current_timestamp(),
   PRIMARY KEY (`bestelling_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 -- Dumpen data van tabel bunnywiki_db.bestellingen: ~1 rows (ongeveer)
 /*!40000 ALTER TABLE `bestellingen` DISABLE KEYS */;
-INSERT INTO `bestellingen` (`bestelling_id`, `product_id`, `gebruiker_id`, `bod`, `verzendkosten`, `besteldatum`) VALUES
-	(8, 2, 2, 20.5, 14.7, '2020-12-16 18:07:52');
+INSERT INTO `bestellingen` (`bestelling_id`, `product_id`, `gebruiker_id`, `gebruiker_bod`, `verzendkosten`, `besteldatum`) VALUES
+	(1, 2, 2, 20.5, 14.7, '2020-12-16 18:07:52'),
+	(2, 5, 5, 30, 14.7, '2020-12-16 23:04:08'),
+	(3, 1, 2, 15.9, 14.7, '2020-12-16 23:06:26');
 /*!40000 ALTER TABLE `bestellingen` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

@@ -17,18 +17,18 @@ CREATE TABLE IF NOT EXISTS `producten` (
   `naam` varchar(50) NOT NULL,
   `beschrijving` varchar(255) NOT NULL,
   `minimumbod` float unsigned NOT NULL,
-  `status` int(10) unsigned DEFAULT 1,
   `einddatum` datetime NOT NULL,
+  `status` int(10) unsigned DEFAULT 1,
   PRIMARY KEY (`product_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 
 -- Dumpen data van tabel bunnywiki_db.producten: ~4 rows (ongeveer)
 /*!40000 ALTER TABLE `producten` DISABLE KEYS */;
-INSERT INTO `producten` (`product_id`, `naam`, `beschrijving`, `minimumbod`, `status`, `einddatum`) VALUES
-	(1, 'Konijnen keutel', 'Komt heel goed van pas voor insmeren', 649, 1, '2021-01-30 14:30:00'),
-	(2, 'Konijnen bal', 'om mee te voetballen', 5, 1, '2020-12-19 12:00:00'),
-	(5, 'Konijnen beker', 'Om bier uit te drinken', 3.5, 0, '2020-12-18 17:00:00'),
-	(6, 'Sjaal', 'Voor de kou, tijdens lockdown', 50.99, 0, '2021-01-19 23:00:00');
+INSERT INTO `producten` (`product_id`, `naam`, `beschrijving`, `minimumbod`, `einddatum`, `status`) VALUES
+	(1, 'Konijnen keutel', 'Komt heel goed van pas voor insmeren', 649, '2021-01-30 14:30:00', 1),
+	(2, 'Konijnen bal', 'om mee te voetballen', 5, '2020-12-19 12:00:00', 1),
+	(5, 'Konijnen beker', 'Om bier uit te drinken', 3.5, '2020-12-18 17:00:00', 0),
+	(6, 'Sjaal', 'Voor de kou, tijdens lockdown', 50.99, '2021-01-19 23:00:00', 0);
 /*!40000 ALTER TABLE `producten` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
