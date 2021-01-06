@@ -32,7 +32,16 @@
   <div class="container">
     <div class="row">
       <?php
-        $connect = mysqli_query($conn , 'SELECT * FROM producten');
+        if(isset($_GET["del"])){
+          $id = $_GET["del"];
+          if($conn->query("DELETE FROM producten WHERE product_id=$id")){
+               header('Location: overzicht-producten.php');
+          } else { 
+              echo "Failed to delete product.";
+          }    
+        } 
+
+        $connect = mysqli_query($conn , 'SELECT * FROM producten'); 
         while($row = mysqli_fetch_array($connect)){ ?>
       <div class="col-3">
         <div class="thumb-wrapper">
@@ -46,6 +55,7 @@
             <div class="underline"></div>
             <!-- <div class="kop">konijn</div> -->
             <div class="beschrijving"><?php echo $row['beschrijving']; ?></div>
+            <?php echo "<td><a class='button alert' href='overzicht-producten.php?del=".$row["product_id"]."'>Verwijderen</a></td>"; ?>
           </div>
         </div>
       </div>
