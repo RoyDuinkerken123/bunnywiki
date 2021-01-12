@@ -30,3 +30,45 @@
   display: inline-block;
   font-size: 16px;
 }
+
+th{
+  border: 2px solid #202020;
+}
+td{
+  border: 2px solid #303030;
+}
+.tableTop{
+  background-color: #202020;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.tableUpperMid{
+  background-color: #303030;
+  color: whitesmoke;
+  font-size: 15px;
+}
+.tableMid{
+  background-color: #282828;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.tableBottom{
+  background-color: #282828;
+  color: whitesmoke;
+  font-size: 15px;
+  border-bottom: 15px solid #ffff;
+}
+
+tr.header {
+  cursor: pointer;
+}
+
+tr.none {
+  display: none;
+}
+
+tr.header {
+  display: table-row;
+}

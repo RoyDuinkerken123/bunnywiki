@@ -21,7 +21,22 @@
   <component name="ChangeListManager">
     <list default="true" id="dc8e9e4c-3433-4027-b438-fbcf1b4c4c12" name="Default Changelist" comment="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enkel_product/enkel-product-pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/enkel_product/enkel-product-pagina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/overzichten/gebruikers.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/overzichten/gebruikers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/contact-pagina.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enkel_product/enkel-product-pagina.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/header/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_registratie/login_registratie-pagina.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_registratie/login_registratie-pagina.php" beforeDir="false" afterPath="$PROJECT_DIR$/login_registratie/login_registratie-pagina.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_registratie/registreer.php" beforeDir="false" afterPath="$PROJECT_DIR$/login_registratie/registreer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overzichten/overzicht-biedingen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overzichten/overzicht-gebruikers.php" beforeDir="false" afterPath="$PROJECT_DIR$/overzichten/overzicht-gebruikers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overzichten/overzicht-producten.php" beforeDir="false" afterPath="$PROJECT_DIR$/overzichten/overzicht-producten.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persoonlijk_profiel/php.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persoonlijk_profiel/profiel-pagina.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wachtwoord_vergeten/wachtwoord-vergeten-pagina.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +52,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hH0byPLT3U6o64igbjrWknQaxN" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -50,7 +65,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -112,7 +127,12 @@
       <workItem from="1600247326211" duration="35000" />
       <workItem from="1606808197828" duration="7641000" />
       <workItem from="1607414012661" duration="1036000" />
-      <workItem from="1608019053406" duration="5341000" />
+      <workItem from="1608019053406" duration="5478000" />
+      <workItem from="1610095852291" duration="355000" />
+      <workItem from="1610096248095" duration="1385000" />
+      <workItem from="1610098694301" duration="5129000" />
+      <workItem from="1610103835580" duration="2000" />
+      <workItem from="1610441268235" duration="235000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test">
       <created>1599722129079</created>
@@ -150,34 +170,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="545" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1606820106886" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1599728352753">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1599728352753" />
-    <state x="256" y="69" key="MergeDialog" timestamp="1599721916034">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="256" y="69" key="MergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1599721916034" />
-    <state x="657" y="300" width="440" height="264" key="MultipleFileMergeDialog" timestamp="1599721930842">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="657" y="300" width="440" height="264" key="MultipleFileMergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1599721930842" />
-    <state x="489" y="152" key="RollbackChangesDialog" timestamp="1599724575789">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="489" y="152" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1599724575789" />
-    <state x="476" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1608019053376">
+    <state x="476" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1610441274075">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="476" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1608019053376" />
-    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599721889566">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1599721889566" />
-    <state x="92" y="92" width="1416" height="676" key="dock-window-1" timestamp="1600160973271">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="92" y="92" width="1416" height="676" key="dock-window-1/0.0.1600.860@0.0.1600.860" timestamp="1600160973271" />
+    <state x="476" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1610441274075" />
     <state x="491" y="115" width="758" height="638" key="find.popup" timestamp="1607597030656">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

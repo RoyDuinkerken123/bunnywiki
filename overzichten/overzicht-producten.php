@@ -1,11 +1,10 @@
 <!--Social media koppelingen?-->
 <!--Bunnystuff.nl-->
 <?php
-  Include 'C:\wamp64\www\BunnyWikki\bunnywiki\Database\DB_connect.php'
+  Include '..\Database\DB_connect.php'
  ?>
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport">
