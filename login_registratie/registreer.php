@@ -1,14 +1,13 @@
 <?php include "../Database/DB_connect.php";
-$voornaam = $_POST['voornaam'];
-$achternaam = $_POST['achternaam'];
-$woonplaats = $_POST['woonplaats'];
-$postcode = $_POST['postcode'];
-$geboortedatum = $_POST['geboortedatum'];
+//$voornaam = $_POST['voornaam'];
+//$achternaam = $_POST['achternaam'];
+//$woonplaats = $_POST['woonplaats'];
+//$postcode = $_POST['postcode'];
 $email = $_POST['email'];
-$wachtwoord = $_POST['wachtwoord'];
+$wachtwoord = $_POST['wachtwoord']; 
 
 
-$sql = "INSERT INTO gebruikers (voornaam,achternaam,woonplaats,postcode,geboortedatum,email,wachtwoord) VALUES ('$voornaam','$achternaam','$woonplaats','$postcode','$geboortedatum','$email','$wachtwoord')";
+$sql = "INSERT INTO gebruikers (email,wachtwoord) VALUES ('$email','$wachtwoord')"; 
 
 if (mysqli_query($conn, $sql)) {
     header("Location: ../login_registratie/login_registratie-pagina.php?msg=Succesvol geregistreerd");
