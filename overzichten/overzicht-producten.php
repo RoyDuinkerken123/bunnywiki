@@ -31,17 +31,39 @@
   <div class="container">
     <div class="row">
       <?php
-        if(isset($_GET["del"])){
-          $id = $_GET["del"];
-          if($conn->query("DELETE FROM producten WHERE product_id=$id")){
-               header('Location: overzicht-producten.php');
+        $connect = mysqli_query($conn , 'SELECT * FROM producten'); 
+        while($row = mysqli_fetch_array($connect)){
+        $status = $row['status'];
+          
+        if(isset($_GET["nonactief"])){
+          $id = $_GET["nonactief"];
+          if($conn->query("UPDATE producten SET status='0' WHERE product_id=$id")){
+                header('Location: overzicht-producten.php');
           } else { 
-              echo "Failed to delete product.";
+              echo "Status niet geupdate!";
+          }    
+        }
+
+        if(isset($_GET["archiveren"])){
+          $id = $_GET["archiveren"];
+          if($conn->query("UPDATE producten SET status='2' WHERE product_id=$id")){
+                header('Location: overzicht-producten.php');
+          } else { 
+              echo "Status niet geupdate!";
           }    
         } 
 
-        $connect = mysqli_query($conn , 'SELECT * FROM producten'); 
-        while($row = mysqli_fetch_array($connect)){ ?>
+        if(isset($_GET["actief"])){
+          $id = $_GET["actief"];
+          if($conn->query("UPDATE producten SET status='1' WHERE product_id=$id")){
+                header('Location: overzicht-producten.php');
+          } else { 
+              echo "Status niet geupdate!";
+          }    
+        } 
+      ?>
+        
+
       <div class="col-3">
         <div class="thumb-wrapper">
           <div class="img-box">
@@ -54,7 +76,21 @@
             <div class="underline"></div>
             <!-- <div class="kop">konijn</div> -->
             <div class="beschrijving"><?php echo $row['beschrijving']; ?></div>
-            <?php echo "<td><a class='button alert' href='overzicht-producten.php?del=".$row["product_id"]."'>Verwijderen</a></td>"; ?>
+            <?php 
+              if ($status == 0) {
+                $status = 'Non-actief';
+              }
+              else if ($status == 1) {
+                $status = 'Actief';
+              }
+              else if ($status == 2) {
+                $status = 'In archief';
+              }
+            ?>
+            <div class="status"><span>Status: <?php echo $status; ?> </span></div>
+            <div class="actief"><?php echo "<td><a class='pl-0 button alert' href='overzicht-producten.php?actief=".$row["product_id"]."'>Actief zetten</a></td>"; ?></div>
+            <div class="non-actief"><?php echo "<td><a class='pl-0 button alert' href='overzicht-producten.php?nonactief=".$row["product_id"]."'>Non-actief zetten</a></td>"; ?></div>
+            <div class="archiveren"><?php echo "<td><a class='pl-0 button alert' href='overzicht-producten.php?archiveren=".$row["product_id"]."'>Archiveer product</a></td>"; ?></div>
           </div>
         </div>
       </div>

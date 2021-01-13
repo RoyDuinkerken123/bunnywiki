@@ -57,14 +57,17 @@
 <div class="container p-0">
     <div class="row justify-content-center">
         <div class="col-lg-7 text-white">
-            <form method="POST" action="verwerk.php" class="persoonlijkProfiel bg-dark p-4">
+            <form method="POST" action="verwerk.php" class="persoonlijkProfiel bg-dark p-4" enctype="multipart/form-data">  
                 <h4 class="pb-2"> Product toevoegen </h4>
-                <div class="form-group"><input type="text" id="product_naam" name="product_naam" placeholder="Product naam"></div>
-                <div class="form-group"><textarea class="form-control p-1" id="product_omschrijving" name="product_omschrijving" rows="3" placeholder="Product omschrijving"></textarea></div>
-                <div class="form-group"><input type="number" width="100%" id="product_minimumbod" name="product_minimumbod" placeholder="Minimum bod"></div>
-                <div class="form-group"><input type="number" id="product_status" name="product_status" placeholder="Status"></div>
-                <div class="form-group"><input type="datetime" id="product_einddatum" name="product_einddatum" placeholder="Eind datum"></div>
-                <div class="form-group align-items-center justify-content-between">
+                <label>Product naam:</label>
+                <div class="form-group mt-0"><input type="text" id="product_naam" name="product_naam"></div>
+                <label>Product omschrijving:</label>
+                <div class="form-group mt-0"><textarea class="form-control p-1" id="product_omschrijving" name="product_omschrijving" rows="3" ></textarea></div>
+                <label>Minimum bod:</label>
+                <div class="form-group mt-0"><input type="number" width="100%" id="product_minimumbod" name="product_minimumbod"></div>
+                <label>Kies een foto:</label>
+                <div class="form-group mt-0"><input type="file" name="file" id="file"></div>
+                <div class="ml-0 form-group align-items-center justify-content-between">
                     <input type="submit" class="globalBtn" name="submit" value="Submit">
                 </div>
             </form>
