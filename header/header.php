@@ -22,6 +22,28 @@
     <title>Bunnywiki</title>
 </head>
 <body>
+<div style="position: absolute; top: 0;left: 0;background:green;z-index: 9999;">
+    <ul style="list-style-type: none; padding:10px;margin:0;">
+        <li><a href="../enkel_product/enkel-product-pagina.php" style="color: white;font-weight: bold;"> - Enkel
+                product </a></li>
+        <li><a href="../home/index.php" style="color: white;font-weight: bold;"> - Home</a></li>
+        <li><a href="../login_registratie/login_registratie-pagina.php" style="color: white;font-weight: bold;"> -
+                Login/Registratie</a></li>
+        <li><a href="../overzichten/overzicht-biedingen.php" style="color: white;font-weight: bold;"> - Overzicht
+                Biedingen</a></li>
+        <li><a href="../overzichten/overzicht-gebruikers.php" style="color: white;font-weight: bold;"> - Overzicht
+                Gebruikers</a></li>
+        <li><a href="../overzichten/overzicht-producten.php" style="color: white;font-weight: bold;"> - Overzicht
+                Producten</a></li>
+        <li><a href="../persoonlijk_profiel/profiel-pagina.php" style="color: white;font-weight: bold;"> -
+                Profielpagina</a></li>
+        <li><a href="../product_toevoegen/product_toevoegen-pagina.php" style="color: white;font-weight: bold;"> -
+                Product toevoegen</a></li>
+        <li><a href="../wachtwoord_vergeten/wachtwoord-vergeten-pagina.php" style="color: white;font-weight: bold;"> -
+                Wachtwoord vergeten</a></li>
+
+    </ul>
+</div>
 <div class="container-fluid p-0 header">
     <div class="container bg-dark">
         <div class="row justify-content-lg-between justify-content-center">
@@ -51,7 +73,8 @@
                                class="globalBtn border border-primary">
                                 Uitloggen
                             </a>
-                        <?php }} else {
+                        <?php }
+                    } else {
                         ?>
                         <a href="../login_registratie/login_registratie-pagina.php" id="loginBtn"
                            class="globalBtn border border-primary">
