@@ -21,7 +21,18 @@
   <component name="ChangeListManager">
     <list default="true" id="dc8e9e4c-3433-4027-b438-fbcf1b4c4c12" name="Default Changelist" comment="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_registratie/registratie_bij_betaling.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/contact-pagina.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact/contact-pagina.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enkel_product/enkel-product-pagina.php" beforeDir="false" afterPath="$PROJECT_DIR$/enkel_product/enkel-product-pagina.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_registratie/check.php" beforeDir="false" afterPath="$PROJECT_DIR$/login_registratie/check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_registratie/login_registratie-pagina.php" beforeDir="false" afterPath="$PROJECT_DIR$/login_registratie/login_registratie-pagina.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overzichten/overzicht-biedingen.php" beforeDir="false" afterPath="$PROJECT_DIR$/overzichten/overzicht-biedingen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overzichten/overzicht-gebruikers.php" beforeDir="false" afterPath="$PROJECT_DIR$/overzichten/overzicht-gebruikers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overzichten/overzicht-producten.php" beforeDir="false" afterPath="$PROJECT_DIR$/overzichten/overzicht-producten.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persoonlijk_profiel/profiel-pagina.php" beforeDir="false" afterPath="$PROJECT_DIR$/persoonlijk_profiel/profiel-pagina.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_toevoegen/product_toevoegen-pagina.php" beforeDir="false" afterPath="$PROJECT_DIR$/product_toevoegen/product_toevoegen-pagina.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wachtwoord_vergeten/wachtwoord-vergeten-pagina.php" beforeDir="false" afterPath="$PROJECT_DIR$/wachtwoord_vergeten/wachtwoord-vergeten-pagina.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,6 +133,7 @@
       <workItem from="1610567726640" duration="1809000" />
       <workItem from="1611063187928" duration="26000" />
       <workItem from="1611063313191" duration="94000" />
+      <workItem from="1611069677084" duration="227000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test">
       <created>1599722129079</created>

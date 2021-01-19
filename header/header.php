@@ -1,5 +1,3 @@
-<!--Social media koppelingen?-->
-<!--Bunnystuff.nl-->
 <!doctype html>
 <html lang="en">
 <head>
@@ -41,9 +39,26 @@
             </div>
             <div class="col-lg-2">
                 <div class="row align-items-center h-100 justify-content-lg-start justify-content-end">
-                    <a href="../login_registratie/login_registratie-pagina.html" id="loginBtn" class="globalBtn border border-primary">
-                        Inloggen
-                    </a>
+                    <?php
+                    if (isset($_SESSION['ingelogd'])) {
+                        if ($_SESSION['ingelogd'] !== 1) { ?>
+                            <a href="../login_registratie/login_registratie-pagina.php" id="loginBtn"
+                               class="globalBtn border border-primary">
+                                Inloggen
+                            </a>
+                        <?php } else if ($_SESSION['ingelogd'] === 1) { ?>
+                            <a href="../login_registratie/uitloggen.php" id="loginBtn"
+                               class="globalBtn border border-primary">
+                                Uitloggen
+                            </a>
+                        <?php }} else {
+                        ?>
+                        <a href="../login_registratie/login_registratie-pagina.php" id="loginBtn"
+                           class="globalBtn border border-primary">
+                            Inloggen
+                        </a>
+                        <?php
+                    } ?>
                 </div>
             </div>
         </div>
