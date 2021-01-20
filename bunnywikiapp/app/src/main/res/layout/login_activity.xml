@@ -5,14 +5,19 @@
     android:id="@+id/rlayout_login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bunnywiki_app.LoginActivity">
+    tools:context=".account.LoginActivity">
 
-<!--    <ImageView-->
-<!--        android:id="@+id/image_logo"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"/>-->
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher" />
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,27 +28,31 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/text_headerUsername"
+            android:id="@+id/text_headerEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
             android:layout_marginEnd="50dp"
-            android:text="Gebruikers" />
+            android:text="@string/acc_email"
+            android:textSize="16sp"
+            android:textAllCaps="true"/>
 
         <EditText
-            android:id="@+id/text_username"
-            android:layout_width="wrap_content"
+            android:id="@+id/text_email"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/text_headerEmail"
             android:layout_gravity="center_horizontal"
             android:layout_marginStart="50dp"
             android:layout_marginEnd="50dp"
-            android:background="@drawable/rectangle_2"
-            android:drawableStart="@android:drawable/ic_menu_gallery"
-            android:paddingStart="10dp" />
+            android:background="@drawable/ac_input_focus"
+            android:drawableStart="@android:drawable/ic_menu_gallery" />
 
         <Space
+            android:id="@+id/spacer_loginForm"
             android:layout_width="match_parent"
-            android:layout_height="20dp"/>
+            android:layout_height="20dp"
+            android:layout_below="@id/text_email"/>
 
         <TextView
             android:id="@+id/text_headerPassword"
@@ -51,30 +60,52 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
             android:layout_marginEnd="50dp"
-            android:text="Wachtwoord" />
+            android:text="@string/acc_password"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:layout_below="@id/spacer_loginForm"/>
 
         <EditText
             android:id="@+id/text_password"
-            android:layout_width="350dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_marginStart="50dp"
             android:layout_marginEnd="50dp"
-            android:layout_gravity="center_horizontal"
-            android:background="@drawable/rectangle_2"
-            android:drawableStart="@android:drawable/ic_menu_gallery"/>
+            android:background="@drawable/ac_input_focus"
+            android:drawableStart="@android:drawable/ic_menu_gallery"
+            android:layout_below="@id/text_headerPassword"/>
 
-    </LinearLayout>
+        <TextView
+            android:id="@+id/text_forgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acc_forgotPasswordLink"
+            android:textSize="16sp"
+            android:layout_below="@id/text_password"
+            android:layout_alignEnd="@id/text_password"/>
 
-    <Button
-        android:id="@+id/button_login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Login"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.20"/>
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/text_forgotPassword" />
+
+        <TextView
+            android:id="@+id/text_noAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acc_noAccount"
+            android:textSize="16sp"
+            android:layout_below="@id/button_login"
+            android:layout_alignStart="@id/text_password"/>
+
+
+    </RelativeLayout>
+
+
 
 <!--    <TextView-->
 <!--        android:id="@+id/text_headerUsername"-->

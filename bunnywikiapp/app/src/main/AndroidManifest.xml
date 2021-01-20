@@ -8,8 +8,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
-        <activity android:name=".bunnywiki_app.LoginActivity">
+        android:theme="@style/Theme.Bunnywikiapp">
+        <activity android:name=".account.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

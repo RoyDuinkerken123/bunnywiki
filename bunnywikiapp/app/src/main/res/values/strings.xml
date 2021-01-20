@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">bunnywiki-app</string>
+
+    <string name="acc_email">Email</string>
+    <string name="acc_password">Wachtwoord</string>
+    <string name="acc_forgotPasswordLink"><a>Wachtwoord vergeten?</a></string>
+    <string name="acc_noAccount"><a>Nog geen account? Registreren</a></string>
+
 </resources>
