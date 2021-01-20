@@ -7,7 +7,7 @@ MODIFY woonplaats varchar(50) NULL,
 MODIFY postcode varchar(11) NULL,
 MODIFY email varchar(50) NOT NULL,
 MODIFY wachtwoord varchar(128) NOT NULL,
-MODIFY status varchar(11) NOT NULL DEFAULT '1',
+MODIFY rol varchar(11) NOT NULL DEFAULT '1',
 ADD UNIQUE (email),
 DROP COLUMN telefoonnummer,
 DROP COLUMN geboortedatum
