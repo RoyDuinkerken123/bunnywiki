@@ -69,7 +69,7 @@ if (isset($_GET['msg'])) {
             </div>
             <div class="col-lg-2">
                 <div class="row align-items-center h-100 justify-content-lg-start justify-content-end">
-                    <a href="../login/login-pagina.html" id="loginBtn" class="globalBtn border border-primary">
+                    <a href="../login_registratie/login_registratie-pagina.php" id="loginBtn" class="globalBtn border border-primary">
                         Inloggen
                     </a>
                 </div>
@@ -193,8 +193,8 @@ if (isset($_GET['msg'])) {
                 </div>
             </div>
             <div class="textHolder col-lg-3">
-                <a href="../login/login-pagina.html"> Inloggen </a>
-                <a href="../login/login-pagina.html"> Gratis registreren </a>
+                <a href="../login_registratie/login_registratie-pagina.php"> Inloggen </a>
+                <a href="../login_registratie/login_registratie-pagina.php"> Gratis registreren </a>
             </div>
         </div>
     </div>

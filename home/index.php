@@ -40,7 +40,7 @@
         </div>
         <div class="col-lg-2">
             <div class="row align-items-center h-100 justify-content-lg-start justify-content-end">
-                <a href="../login_registratie/login_registratie-pagina.html" id="loginBtn"
+                <a href="../login_registratie/login_registratie-pagina.php" id="loginBtn"
                    class="globalBtn border border-primary">
                     Inloggen
                 </a>
@@ -56,7 +56,7 @@
         <h2> De unieke veilingwebsite voor konijnenproducten! </h2>
     </div>
 </div>
-<a href="../login_registratie/login_registratie-pagina.html">
+<a href="../login_registratie/login_registratie-pagina.php">
     <button id="registerBtn" class="globalBtn border border-primary"> Registreer nu!</button>
 </a>
 

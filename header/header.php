@@ -41,7 +41,7 @@
             </div>
             <div class="col-lg-2">
                 <div class="row align-items-center h-100 justify-content-lg-start justify-content-end">
-                    <a href="../login_registratie/login_registratie-pagina.html" id="loginBtn" class="globalBtn border border-primary">
+                    <a href="../login_registratie/login_registratie-pagina.php" id="loginBtn" class="globalBtn border border-primary">
                         Inloggen
                     </a>
                 </div>
