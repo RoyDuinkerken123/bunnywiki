@@ -21,17 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dc8e9e4c-3433-4027-b438-fbcf1b4c4c12" name="Default Changelist" comment="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/contact-pagina.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact/contact-pagina.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enkel_product/enkel-product-pagina.php" beforeDir="false" afterPath="$PROJECT_DIR$/enkel_product/enkel-product-pagina.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_registratie/login_registratie-pagina.php" beforeDir="false" afterPath="$PROJECT_DIR$/login_registratie/login_registratie-pagina.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overzichten/overzicht-biedingen.php" beforeDir="false" afterPath="$PROJECT_DIR$/overzichten/overzicht-biedingen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overzichten/overzicht-gebruikers.php" beforeDir="false" afterPath="$PROJECT_DIR$/overzichten/overzicht-gebruikers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overzichten/overzicht-producten.php" beforeDir="false" afterPath="$PROJECT_DIR$/overzichten/overzicht-producten.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persoonlijk_profiel/profiel-pagina.php" beforeDir="false" afterPath="$PROJECT_DIR$/persoonlijk_profiel/profiel-pagina.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_toevoegen/product_toevoegen-pagina.php" beforeDir="false" afterPath="$PROJECT_DIR$/product_toevoegen/product_toevoegen-pagina.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wachtwoord_vergeten/wachtwoord-vergeten-pagina.php" beforeDir="false" afterPath="$PROJECT_DIR$/wachtwoord_vergeten/wachtwoord-vergeten-pagina.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +120,7 @@
       <workItem from="1610103835580" duration="2000" />
       <workItem from="1610441268235" duration="235000" />
       <workItem from="1611145117032" duration="1197000" />
-      <workItem from="1611146573948" duration="3227000" />
+      <workItem from="1611146573948" duration="3481000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test">
       <created>1599722129079</created>
@@ -171,10 +162,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="476" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1610441274075" />
-    <state x="491" y="115" width="758" height="638" key="find.popup" timestamp="1611149095509">
+    <state x="491" y="115" width="758" height="638" key="find.popup" timestamp="1611150082209">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="491" y="115" width="758" height="638" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1611149095509" />
+    <state x="491" y="115" width="758" height="638" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1611150082209" />
     <state x="456" y="195" key="run.anything.popup" timestamp="1606380489797">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

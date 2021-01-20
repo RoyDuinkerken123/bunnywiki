@@ -10,9 +10,6 @@ include "../header/header.php";
         <h2> De unieke veilingwebsite voor konijnenproducten! </h2>
     </div>
 </div>
-<a href="../login_registratie/login_registratie-pagina.php">
-    <button id="registerBtn" class="globalBtn border border-primary"> Registreer nu!</button>
-</a>
 
 <!-- Product categorieen -->
 <div class="container sectie">

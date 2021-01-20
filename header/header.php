@@ -44,6 +44,13 @@
 
     </ul>
 </div>
+<?php if (!isset($_SESSION['ingelogd'])) {
+    ?>
+    <a href="../login_registratie/login_registratie-pagina.php">
+        <button id="registerBtn" class="globalBtn border border-primary"> Registreer nu!</button>
+    </a>
+    <?php
+} ?>
 <div class="container-fluid p-0 header">
     <div class="container bg-dark">
         <div class="row justify-content-lg-between justify-content-center">
