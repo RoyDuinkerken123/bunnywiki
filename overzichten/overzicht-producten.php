@@ -1,8 +1,13 @@
+<!--Social media koppelingen?-->
+<!--Bunnystuff.nl-->
 <?php
-session_start();
-include "../Database/DB_connect.php";
-include "../header/header.php";
+  session_start();
+  include "../Database/DB_connect.php";
+  include "../header/header.php";
 ?>
+
+
+<body>
   <div class="container">
     <div class="row">
       <?php
@@ -25,7 +30,7 @@ include "../header/header.php";
                 header('Location: overzicht-producten.php');
           } else { 
               echo "Status niet geupdate!";
-          }
+          }    
         } 
 
         if(isset($_GET["actief"])){
@@ -37,6 +42,8 @@ include "../header/header.php";
           }    
         } 
       ?>
+        
+
       <div class="col-3 my-3">
         <div class="thumb-wrapper">
           <div class="img-box">
@@ -70,3 +77,4 @@ include "../header/header.php";
       <?php } ?>
     </div>
   </div>
+<?php include "../footer/footer.php" ?>
