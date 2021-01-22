@@ -7,7 +7,7 @@ include "../header/header.php";
 <div class="container-fluid">
   <div class="title">Overzicht biedingen</div>
       <div class="row">
-          <div class="col-12 mx-auto gebruiker-col">
+          <div class="col-12 mx-auto">
               <table class="table table-striped table-dark">
                 <tr>
                   <th>ID</th>

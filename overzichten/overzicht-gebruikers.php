@@ -36,8 +36,8 @@ if (isset($_GET['msg'])) {
         <div class="col-12 mx-auto">
             <table class="table">
                 <?php
-                $connect = mysqli_query($conn, 'SELECT * FROM gebruikers');
-                while ($row = mysqli_fetch_array($connect)) { ?>
+                $result = mysqli_query($conn, 'SELECT * FROM gebruikers');
+                while ($row = mysqli_fetch_array($result)) { ?>
                     <tr class="tableTop">
                         <th colspan="2">ID</th>
                         <th colspan="2">Naam</th>

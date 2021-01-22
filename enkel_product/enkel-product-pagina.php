@@ -1,5 +1,6 @@
 <?php
 session_start();
+include "../Database/DB_connect.php";
 include "../header/header.php";
 ?>
 
@@ -37,46 +38,29 @@ include "../header/header.php";
             </div>
             <p class="mt-3 font-weight-bold">Alle biedingen</p>
             <div class="col p-4" style="overflow-y: scroll; overflow-x:hidden; height: 100px;">
-                <div class="row justify-content-between border-bottom">
-                    <p class="font-weight-bold my-0 py-0">Bieder 3454</p>
-                    <p class="font-weight-bold my-0 py-0">10-12-2020 | 11:19:45</p>
-                    <p class="font-weight-bold my-0 py-0">€95</p>
-                </div>
-                <div class="row justify-content-between border-bottom">
-                    <p class="my-0 py-0">Bieder 3454</p>
-                    <p class="my-0 py-0">10-12-2020 | 11:19:45</p>
-                    <p class="my-0 py-0">€95</p>
-                </div>
-                <div class="row justify-content-between border-bottom">
-                    <p class="my-0 py-0">Bieder 3454</p>
-                    <p class="my-0 py-0">10-12-2020 | 11:19:45</p>
-                    <p class="my-0 py-0">€95</p>
-                </div>
-                <div class="row justify-content-between border-bottom">
-                    <p class="my-0 py-0">Bieder 3454</p>
-                    <p class="my-0 py-0">10-12-2020 | 11:19:45</p>
-                    <p class="my-0 py-0">€95</p>
-                </div>
-                <div class="row justify-content-between border-bottom">
-                    <p class="my-0 py-0">Bieder 3454</p>
-                    <p class="my-0 py-0">10-12-2020 | 11:19:45</p>
-                    <p class="my-0 py-0">€95</p>
-                </div>
-                <div class="row justify-content-between border-bottom">
-                    <p class="my-0 py-0">Bieder 3454</p>
-                    <p class="my-0 py-0">10-12-2020 | 11:19:45</p>
-                    <p class="my-0 py-0">€95</p>
-                </div>
-                <div class="row justify-content-between border-bottom">
-                    <p class="my-0 py-0">Bieder 3454</p>
-                    <p class="my-0 py-0">10-12-2020 | 11:19:45</p>
-                    <p class="my-0 py-0">€95</p>
-                </div>
-                <div class="row justify-content-between border-bottom">
-                    <p class="my-0 py-0">Bieder 3454</p> 
-                    <p class="my-0 py-0">10-12-2020 | 11:19:45</p>
-                    <p class="my-0 py-0">€95</p>
-                </div>
+                <?php
+                //                $sql = "SELECT * FROM biedingen WHERE product_id = 1";
+                //                $result = mysqli_query($conn, $sql);
+                //                $row = mysqli_fetch_array($result);
+
+                $sql = "SELECT * from biedingen 
+                        INNER JOIN gebruikers 
+                            ON gebruikers.gebruiker_id = biedingen.gebruiker_id 
+                        INNER JOIN producten 
+                            ON producten.product_id = biedingen.product_id
+                            WHERE producten.product_id = 1";
+
+                $result = mysqli_query($conn, $sql);
+                while ($row = mysqli_fetch_array($result)) {
+                    ?>
+                    <div class="row justify-content-between border-bottom">
+                        <p class="font-weight-bold my-0 py-0"> <?php echo $row['voornaam']; ?></p>
+                        <p class="font-weight-bold my-0 py-0">10-12-2020 | 11:19:45</p>
+                        <p class="font-weight-bold my-0 py-0">€<?php echo $row['gebruiker_bod']; ?> </p>
+                    </div>
+                <?php } ?>
+
+
             </div>
         </div>
     </div>

@@ -25,7 +25,7 @@ include "../header/header.php";
                 header('Location: overzicht-producten.php');
           } else { 
               echo "Status niet geupdate!";
-          }    
+          }
         } 
 
         if(isset($_GET["actief"])){
@@ -37,9 +37,7 @@ include "../header/header.php";
           }    
         } 
       ?>
-        
-
-      <div class="col-3">
+      <div class="col-3 my-3">
         <div class="thumb-wrapper">
           <div class="img-box">
             <img class="productIMG" src="../assets/images/<?php echo $row['productafbeelding']; ?>" alt="Product">
