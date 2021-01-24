@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">bunnywiki-app</string>
 
+    <string name="acc_login">Inloggen</string>
+    <string name="acc_registreer">Registreren</string>
     <string name="acc_email">Email</string>
     <string name="acc_password">Wachtwoord</string>
+    <string name="acc_confirmPassword">Bevestig wachtwoord</string>
     <string name="acc_forgotPasswordLink"><a>Wachtwoord vergeten?</a></string>
-    <string name="acc_noAccount"><a>Nog geen account? Registreren</a></string>
+    <string name="acc_accountNotExists"><a>Nog geen account? \nRegistreren</a></string>
+    <string name="acc_accountExists"><a>Wel een account? \nInloggen</a></string>
 
 </resources>
