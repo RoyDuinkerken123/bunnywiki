@@ -36,7 +36,7 @@ if (isset($_GET['msg'])) {
     <div class="row justify-content-between">
         <div class="col-lg-5 text-white">
             <form action="check.php" method="POST" name="loginForm" id="loginForm" class="bg-dark p-4">
-                <div class="title">Aanmelden</div>
+                <div class="title">Inloggen</div>
                 <div class="form-group">
                     <input type="text" name="email" placeholder="E-mailadres">
                 </div>
@@ -52,37 +52,9 @@ if (isset($_GET['msg'])) {
             <form action="registreer.php" method="POST" name="loginForm" id="registerForm" class="bg-dark p-4">
                 <div class="title">Registreren</div>
                 <div class="form-group">
-                    <input type="text" name="voornaam" placeholder="Voornaam" required>
-                </div>
-                <div class="form-group">
-                    <input type="text" name="voorvoegsel" placeholder="Voorvoegsel">
-                    <input type="text" name="achternaam" placeholder="Achternaam">
-                </div>
-
-                <div class="form-group">
                     <input type="text" name="email" placeholder="E-mailadres">
                 </div>
-                <div class="form-group p-0 m-0">
-                    <p style="color: white;font-size: 12px;" class="m-0 p-0">Geboortedatum</p>
-                </div>
-                <div class="form-group">
-                    <input type="date" name="geboortedatum" placeholder="Geboortedatum">
-                </div>
-                <div class="form-group">
-                    <input type="text" name="woonplaats" placeholder="Woonplaats">
-                </div>
-                <div class="form-group">
-                    <input type="text" name="adres" placeholder="Adres">
-                </div>
-                <div class="form-group">
-                    <input type="text" name="postcode" placeholder="Postcode">
-                </div>
-                <div class="form-group">
-                    <input type="text" name="telefoonnummer" placeholder="Bijv. 06-12345678">
-                </div>
-                <div class="form-group">
-                    <input type="password" name="wachtwoord" placeholder="Wachtwoord">
-                </div>
+                <input type="password" name="wachtwoord" placeholder="Wachtwoord">
                 <div class="form-group">
                     <input type="password" name="bevestigWachtwoord" placeholder="Bevestig wachtwoord">
                 </div>

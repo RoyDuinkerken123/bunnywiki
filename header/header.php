@@ -22,6 +22,10 @@
     <title>Bunnywiki</title>
 </head>
 <body>
+<?php if (isset($_GET['msg'])) {
+    $msg = $_GET['msg'];
+    echo "<script> alert('$msg') </script>";
+} ?>
 <div style="position: absolute; top: 0;left: 0;background:green;z-index: 9999;">
     <ul style="list-style-type: none; padding:10px;margin:0;">
         <li><a href="../enkel_product/enkel-product-pagina.php" style="color: white;font-weight: bold;"> - Enkel
@@ -41,6 +45,7 @@
                 Product toevoegen</a></li>
         <li><a href="../wachtwoord_vergeten/wachtwoord-vergeten-pagina.php" style="color: white;font-weight: bold;"> -
                 Wachtwoord vergeten</a></li>
+        <li><a href="../admin/test.php" style="color: white;font-weight: bold;">- Admin-Test</a></li>
 
     </ul>
 </div>

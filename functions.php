@@ -1,20 +1,18 @@
-<?php session_start();
-include "Database/DB_connect.php";
+<?php
 
-function checkRole(){ // 1, gebruiker - 2, verkoper - 3, administrator
-	if($_SESSION['role'] === "1") {
-        include "home/index.php?gebruiker";
+function checkRole($paginarol)  // 1, gebruiker - 2, verkoper - 3, administrator
+{
+    if($paginarol === 'gebruiker') {
+        $paginarol = '1';
+    } else if ($paginarol === 'verkoper') {
+        $paginarol = '2';
     }
-    else if ($_SESSION['role'] === "2") {
-        include "home/index.php?verkoper";
-    }
-    else if ($_SESSION['role'] === "3") {
-        include "home/index.php?admin";
+     else if ($paginarol === 'admin') {
+         $paginarol = '3';
+     }
+    if($_SESSION['rol'] !== $paginarol) {
+        header("Location: ../home/index.php?msg=U heeft hier niet de juist rechten voor!");
     }
 }
-
-
-
-
 
 ?>

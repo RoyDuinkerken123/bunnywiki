@@ -1,14 +1,17 @@
 <?php
 session_start();
 include "../Database/DB_connect.php";
+include "../functions.php";
 include "../header/header.php";
-include "functions.php";
-checkRole();
 ?>
 
 <div id="hero" class="container-fluid">
     <div class="row align-items-center justify-content-center h-100 flex-column">
-        <h2> Welkom op Bunnywiki!</h2>
+        <h2>
+            <?php if(isset($_SESSION['voornaam'])) {
+                echo "Hey " . $_SESSION['voornaam'] . "!";
+            } ?>
+            Welkom op Bunnywiki!</h2>
         <h2> De unieke veilingwebsite voor konijnenproducten! </h2>
     </div>
 </div>

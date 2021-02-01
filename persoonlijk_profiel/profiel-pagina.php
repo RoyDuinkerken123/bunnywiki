@@ -11,27 +11,32 @@ include "../header/header.php";
                 <div class="form-group my-3">
                     <img src="../assets/images/dummy.jpg" width="150" height="150">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-8">
                             <div class="row justify-content-end">
                                 <div class="persoonlijkeInfo">
                                     <p> Voornaam</p>
-                                    <p> Voorvoegsel</p>
                                     <p> Achternaam</p>
                                     <p> E-mailadres</p>
                                     <p> Woonplaats</p>
-                                    <p> Geboortedatum</p>
+                                    <p> Telefoonnummer</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <div class="row justify-content-start">
                                 <div class="persoonlijkeInfo">
-                                    <p> Mick </p>
-                                    <p> van </p>
-                                    <p> Stotijn </p>
-                                    <p>Mickstotijn@hotmail.com</p>
-                                    <p>Hoogeveen</p>
-                                    <p>11-03-2001</p>
+                                    <p> <?php if(isset($_SESSION['voornaam'])) {
+                                        echo $_SESSION['voornaam']; } else { echo " - "; }?> </p>
+                                    <p> <?php if(isset($_SESSION['achternaam'])) {
+                                            echo $_SESSION['achternaam']; } else { echo " - "; } ?> </p>
+                                    <p> <?php if(isset($_SESSION['email'])) {
+                                            echo $_SESSION['email']; } else { echo " - "; } ?> </p>
+                                    <p> <?php if(isset($_SESSION['woonplaats'])) {
+                                            echo $_SESSION['woonplaats']; }  else { echo " - "; }?> </p>
+                                    <p> <?php if(isset($_SESSION['geboortedatum'])) {
+                                            echo $_SESSION['geboortedatum']; } else { echo " - "; } ?> </p>
+                                    <p> <?php if(isset($_SESSION['telefoonnummer'])) {
+                                            echo $_SESSION['telefoonnummer']; } else { echo " - "; } ?> </p>
                                 </div>
                             </div>
                         </div>
