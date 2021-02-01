@@ -1,49 +1,53 @@
-<!--Social media koppelingen?-->
-<!--Bunnystuff.nl-->
 <?php
   session_start();
   include "../Database/DB_connect.php";
-  include "../header/header.php";
+  $fout = "FOUT: Status kon niet worden geüpdate.";
+
+  function fout_alert($fout) {
+    echo "<script> alert('$fout');</script>";
+  }
+
+  if(isset($_GET["nonactief"])){
+    $id = $_GET["nonactief"];
+    if($conn->query("UPDATE producten SET status='0' WHERE product_id=$id")){
+          
+    } else { 
+        fout_alert($fout);
+    }    
+  }
+
+  if(isset($_GET["archiveren"])){
+    $id = $_GET["archiveren"];
+    if($conn->query("UPDATE producten SET status='2' WHERE product_id=$id")){
+
+    } else { 
+        fout_alert($fout);
+    }    
+  } 
+
+  if(isset($_GET["actief"])){
+    $id = $_GET["actief"];
+    if($conn->query("UPDATE producten SET status='1' WHERE product_id=$id")){
+          
+    } else { 
+        fout_alert($fout);
+    }    
+  } 
 ?>
-
-
 <body>
   <div class="container">
     <div class="row">
-      <?php
-        $connect = mysqli_query($conn , 'SELECT * FROM producten'); 
-        while($row = mysqli_fetch_array($connect)){
-        $status = $row['status'];
-          
-        if(isset($_GET["nonactief"])){
-          $id = $_GET["nonactief"];
-          if($conn->query("UPDATE producten SET status='0' WHERE product_id=$id")){
-                header('Location: overzicht-producten.php');
-          } else { 
-              echo "Status niet geupdate!";
-          }    
-        }
-
-        if(isset($_GET["archiveren"])){
-          $id = $_GET["archiveren"];
-          if($conn->query("UPDATE producten SET status='2' WHERE product_id=$id")){
-                header('Location: overzicht-producten.php');
-          } else { 
-              echo "Status niet geupdate!";
-          }    
-        } 
-
-        if(isset($_GET["actief"])){
-          $id = $_GET["actief"];
-          if($conn->query("UPDATE producten SET status='1' WHERE product_id=$id")){
-                header('Location: overzicht-producten.php');
-          } else { 
-              echo "Status niet geupdate!";
-          }    
-        } 
-      ?>
-        
-
+<?php
+  include "../header/header.php";
+  $connect = mysqli_query($conn , 'SELECT * FROM producten'); 
+  while($row = mysqli_fetch_array($connect)){
+  $status = $row['status'];
+  if ($fout != ""){
+    echo '<div class="fout"> '. $fout . ' <br> Probeer het later nog eens. </div>';
+  } 
+?>
+    
+    
       <div class="col-3 my-3">
         <div class="thumb-wrapper">
           <div class="img-box">
@@ -76,5 +80,9 @@
       </div>
       <?php } ?>
     </div>
+    
   </div>
+
 <?php include "../footer/footer.php" ?>
+<!--Social media koppelingen?-->
+<!--Bunnystuff.nl-->
