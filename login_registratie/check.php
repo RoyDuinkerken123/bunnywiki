@@ -11,6 +11,7 @@ if (mysqli_num_rows($result) == 1) {
     header("Location: ../home/index.php");
     $row = mysqli_fetch_array($result);
     $_SESSION['ingelogd'] = 1;
+    $_SESSION['rol'] = $row['rol'];
     $_SESSION['id'] = $row['gebruiker_id'];
     $_SESSION['voornaam'] = $row['voornaam'];
     $_SESSION['achternaam'] = $row['achternaam'];

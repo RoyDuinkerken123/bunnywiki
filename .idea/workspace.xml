@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc8e9e4c-3433-4027-b438-fbcf1b4c4c12" name="Default Changelist" comment="Merge branch 'master' of https://github.com/RoyDuinkerken123/bunnywiki into master&#10;&#10;# Conflicts:&#10;#&#9;Vragen.txt&#10;#&#9;test">
+      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overzichten/overzicht-producten.php" beforeDir="false" afterPath="$PROJECT_DIR$/overzichten/overzicht-producten.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_registratie/check.php" beforeDir="false" afterPath="$PROJECT_DIR$/login_registratie/check.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,10 +176,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="491" y="115" width="758" height="638" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1611150082209" />
-    <state x="456" y="195" key="run.anything.popup" timestamp="1606380489797">
+    <state x="456" y="195" key="run.anything.popup" timestamp="1612194395559">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1606380489797" />
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1612194395559" />
     <state x="463" y="180" key="search.everywhere.popup" timestamp="1606310785828">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

@@ -2,6 +2,8 @@
 session_start();
 include "../Database/DB_connect.php";
 include "../header/header.php";
+include "functions.php";
+checkRole();
 ?>
 
 <div id="hero" class="container-fluid">
