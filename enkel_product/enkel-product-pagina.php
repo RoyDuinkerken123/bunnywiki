@@ -31,11 +31,13 @@ include "../header/header.php";
                 <button class="globalBtn w-25 bg-success text-white my-1 font-weight-bold"> €125</button>
                 <button class="globalBtn w-25 bg-success text-white my-1 font-weight-bold"> €125</button>
             </div>
-            <p class="mt-3 font-weight-bold"> Bied direct </p>
-            <div class="row p-3 my-2">
-                <input type="text" class="flex-fill font-weight-bold" placeholder="€">
-                <button class="globalBtn w-25 ml-3 bg-success text-white font-weight-bold">Bieden</button>
-            </div>
+            <form method="POST" action="verwerk.php">
+                <p class="mt-3 font-weight-bold"> Bied direct </p>
+                <div class="row p-3 my-2">
+                    <input type="text" name="bod" id="bod" class="flex-fill font-weight-bold" placeholder="€">
+                    <input type="submit" class="globalBtn w-25 ml-3 bg-success text-white font-weight-bold" name="submit" value="Submit">
+                </div>
+            </form>        
             <p class="mt-3 font-weight-bold">Alle biedingen</p>
             <div class="col p-4" style="overflow-y: scroll; overflow-x:hidden; height: 100px;">
                 <?php
